@@ -62,3 +62,7 @@ clean:
 .PHONY: charts
 charts:
 	python3 tools/plot.py
+
+.PHONY: understand
+understand:
+	python3 tools/understand.py

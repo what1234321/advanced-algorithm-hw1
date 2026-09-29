@@ -1,4 +1,5 @@
-"""Three in-place comparison sorts. Functions return key-comparison counts."""
+"""Three comparison sorts modifying their input; merge uses auxiliary storage.
+Functions return key-comparison counts."""
 
 def insertion_sort(a):
     comparisons = 0

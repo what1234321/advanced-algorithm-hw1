@@ -33,6 +33,8 @@ class SortTests(unittest.TestCase):
                 data=[Tagged(key, i) for i,key in enumerate([3,1,3,1,2,1,3])]
                 sorter(data)
                 self.assertEqual([x.key for x in data], [1,1,1,2,3,3,3])
+                self.assertEqual(sorted(x.tag for x in data), list(range(7)))
+                self.assertTrue(all(x.key == [3,1,3,1,2,1,3][x.tag] for x in data))
                 if name != 'heap':self.assertTrue(stable(data))
         ties=[Tagged(1,i) for i in range(4)]
         SORTS['heap'](ties)

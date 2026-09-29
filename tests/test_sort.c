@@ -17,6 +17,12 @@ static void checkInput(const int keys[],size_t n) {
         for(size_t i=0;i<n;++i) a[i]=(Record){keys[i],(int)i};
         memcpy(expected,a,n*sizeof(*a));qsort(expected,n,sizeof(*a),compareKey);
         SORT_ALGORITHMS[k].sort(a,n);++checks;
+        int seen[501]={0};
+        for(size_t i=0;i<n;++i) {
+            if(a[i].tag<0 || (size_t)a[i].tag>=n ||
+               seen[a[i].tag] || keys[a[i].tag]!=a[i].key) {++failures;break;}
+            seen[a[i].tag]=1;
+        }
         for(size_t i=0;i<n;++i) if(a[i].key!=expected[i].key) {++failures;break;}
         if (SORT_ALGORITHMS[k].stable&&!stable(a,n)) ++failures;
     }

@@ -1,0 +1,7 @@
+case,n,inversions,prefix_minima,predicted_insertion,insertion,merge,heap
+sorted,1000,0,0,999,999,4932,17583
+swap_first,1000,1,1,999,999,4933,17583
+swap_middle,1000,1,0,1000,1000,4933,17582
+swap_ends,1000,1997,2,2994,2994,5930,17567
+all_equal,1000,0,0,999,999,4932,2994
+reverse,1000,499500,999,499500,499500,5044,15965

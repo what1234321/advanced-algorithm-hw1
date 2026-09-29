@@ -15,6 +15,7 @@ Python 3.10 이상, C17 컴파일러, make가 필요합니다. 코드와 SVG 생
 make test
 make run
 make charts
+make understand
 ```
 
 `make run`은 Python 실험을 먼저 실행하여 고정 시드의 입력 파일을 저장합니다. C 실험은 바로 그 입력을 읽습니다. C만 실행하려면 입력을 먼저 생성하세요.
@@ -43,6 +44,8 @@ make run-c
 - `tools/plot.py`: CSV로 SVG 생성
 - `report/REPORT.pdf`: 제출용 한글 보고서
 - `report/growth.svg`: 입력 크기에 따른 비교 횟수 그래프
+- `tools/understand.py`: 역전 쌍과 삽입 비교 수 공식, 안정성 변이 실험
+- `results/understanding.csv`, `results/mutation.json`: 추가 검증 원자료
 - 컨테이너 및 VS Code 설정: 수업 템플릿에서 가져옴
 
 공간복잡도는 구현 구조로 분석했으며, 실제 메모리 사용량은 측정하지 않았습니다. Docker/Codespaces 설정은 포함되어 있지만, 이번 검증은 Linux 호스트의 gcc와 Python으로 진행했습니다.
