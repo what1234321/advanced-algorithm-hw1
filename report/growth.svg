@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320">
+<rect width="640" height="320" fill="white"/>
+<text x="65" y="25" font-family="sans-serif" font-size="15">Random input: key comparisons (log10 scale)</text>
+<line x1="65" y1="270.0" x2="605" y2="270.0" stroke="#dfe5ed"/>
+<text x="15" y="274.0" font-size="12" font-family="sans-serif">10^2</text>
+<line x1="65" y1="226.0" x2="605" y2="226.0" stroke="#dfe5ed"/>
+<text x="15" y="230.0" font-size="12" font-family="sans-serif">10^3</text>
+<line x1="65" y1="182.0" x2="605" y2="182.0" stroke="#dfe5ed"/>
+<text x="15" y="186.0" font-size="12" font-family="sans-serif">10^4</text>
+<line x1="65" y1="138.0" x2="605" y2="138.0" stroke="#dfe5ed"/>
+<text x="15" y="142.0" font-size="12" font-family="sans-serif">10^5</text>
+<line x1="65" y1="94.0" x2="605" y2="94.0" stroke="#dfe5ed"/>
+<text x="15" y="98.0" font-size="12" font-family="sans-serif">10^6</text>
+<line x1="65" y1="50.0" x2="605" y2="50.0" stroke="#dfe5ed"/>
+<text x="15" y="54.0" font-size="12" font-family="sans-serif">10^7</text>
+<text x="53.0" y="292" font-size="12" font-family="sans-serif">100</text>
+<text x="390.0660293141638" y="292" font-size="12" font-family="sans-serif">1000</text>
+<text x="491.53301465708194" y="292" font-size="12" font-family="sans-serif">2000</text>
+<text x="593.0" y="292" font-size="12" font-family="sans-serif">4000</text>
+<polyline points="65.0,207.7853212430853 402.0660293141638,119.96956121831735 503.53301465708194,94.29930411788834 605.0,67.54370613890308" fill="none" stroke="#c76545" stroke-width="2"/>
+<circle cx="65.0" cy="207.7853212430853" r="3" fill="#c76545"/>
+<circle cx="402.0660293141638" cy="119.96956121831735" r="3" fill="#c76545"/>
+<circle cx="503.53301465708194" cy="94.29930411788834" r="3" fill="#c76545"/>
+<circle cx="605.0" cy="67.54370613890308" r="3" fill="#c76545"/>
+<text x="180" y="315" font-size="12" font-family="sans-serif" fill="#c76545">insertion</text>
+<polyline points="65.0,237.52855764132903 402.0660293141638,184.6413952157412 503.53301465708194,169.32786095859805 605.0,154.2021924309143" fill="none" stroke="#356c9b" stroke-width="2"/>
+<circle cx="65.0" cy="237.52855764132903" r="3" fill="#356c9b"/>
+<circle cx="402.0660293141638" cy="184.6413952157412" r="3" fill="#356c9b"/>
+<circle cx="503.53301465708194" cy="169.32786095859805" r="3" fill="#356c9b"/>
+<circle cx="605.0" cy="154.2021924309143" r="3" fill="#356c9b"/>
+<text x="310" y="315" font-size="12" font-family="sans-serif" fill="#356c9b">merge</text>
+<polyline points="65.0,225.36109629465136 402.0660293141638,172.05570543191612 503.53301465708194,156.6445290026229 605.0,141.4705268533552" fill="none" stroke="#39836a" stroke-width="2"/>
+<circle cx="65.0" cy="225.36109629465136" r="3" fill="#39836a"/>
+<circle cx="402.0660293141638" cy="172.05570543191612" r="3" fill="#39836a"/>
+<circle cx="503.53301465708194" cy="156.6445290026229" r="3" fill="#39836a"/>
+<circle cx="605.0" cy="141.4705268533552" r="3" fill="#39836a"/>
+<text x="440" y="315" font-size="12" font-family="sans-serif" fill="#39836a">heap</text>
+</svg>
